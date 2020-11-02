@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landing{
+    background-image: url("./love.jpg");
+    object-fit:cover;
+    height: 100vh;
+    padding: 0rem 5rem;
+    background-repeat: no-repeat;
+
+}
+.logo{
+    font-family: "lobster",cursive;
+    font-size: medium;
+}
+.nav-links
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+h2{
+    font-family: "lobster",cursive;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 4rem;
+}
+
+.intro{
+    background:black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+.slider{
+    background:url("./mbula.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    background-repeat: no-repeat;
+   
+}
+.intro-text{
+    color:purple;
+    font-size: 2rem;
+    align-items: center;
+    
+
+}
+.hide{
+    background:rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.hide span{
+    transform: translateX(100%);
+    display:inline-block;
+    
+} 
+.btn-purple{
+    border-radius: 5rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
